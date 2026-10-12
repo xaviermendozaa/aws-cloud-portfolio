@@ -22,7 +22,14 @@ The website was developed locally using HTML and CSS, uploaded to Amazon S3, and
 
 ## Architecture
 
-Visitor → Amazon CloudFront → Private Amazon S3 Bucket
+
+```mermaid
+flowchart TD
+    A[Website Visitor] -->|HTTPS| B[Amazon CloudFront]
+    B -->|Origin Access Control| C[Private Amazon S3 Bucket]
+    C --- D[index.html and style.css]
+```
+  
 
 ## Security Configuration
 
