@@ -6,11 +6,6 @@ A personal cloud engineering portfolio website hosted on Amazon Web Services usi
 ## Live Website
 
 [View My AWS Cloud Portfolio](https://d11pw0rvczgxwx.cloudfront.net)
-
-
-## Website Screenshot
-
-![AWS Cloud Portfolio Website](Screenshots/portfolio-screenshot.png)
   
 
 ## Project Overview
